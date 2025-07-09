@@ -1,0 +1,81 @@
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004080;
+  padding: 1em 2em;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5em;
+  padding: 2em;
+}
+
+.box {
+  background: white;
+  padding: 1.5em;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+  display: block;
+}
+
+/* General Page Styling */
+body {
+  font-family: 'Arial', sans-serif; /* Set the font family */
+  font-size: 16px; /* Set the font size for text */
+  color: #333333; /* Set the font color to a dark gray */
+  background-color: #FFFADC; /* Set the background color of the page */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+h1 {
+  font-family: 'Helvetica', sans-serif; /* A different font for the header */
+  color: #004080; /* Dark blue color for header text */
+  text-align: center; /* Center align the header */
+  margin-top: 50px; /* Add space above the header */
+  font-size: 2.5em; /* Larger font size for the header */
+}
+
+/* Paragraph Styling */
+p {
+  font-family: 'Georgia', serif; /* Serif font for paragraphs */
+  color: #555555; /* Medium gray color for paragraph text */
+  line-height: 1.6; /* Adjust line height for better readability */
+  text-align: justify; /* Justify the text alignment */
+  padding: 0 20px; /* Add some padding to the sides */
+}
+
+/* Link Styling */
+
+a:hover {
+  color: #005fa3; /* Darker blue when the user hovers over the link */
+  text-decoration: bold; /* Underline on hover */
+}

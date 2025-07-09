@@ -1,0 +1,82 @@
+v/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkblue; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
+  padding: 1em 2em;
+}
+
+.logo {
+  color: lightpink;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Text Boxes */
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5em;
+  padding: 2em;
+}
+
+.box {
+  background: lavender; /* CHANGE THE COLOR OF THE BACKGROUND OF THE WORD BOX */
+  padding: 1.5em;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  color: lightblue; /* CHANGE THE COLOR OF THE LINKS */
+  text-decoration: none;
+  padding: 0.5em;
+  display: block;
+}
+
+/* General Page Styling */
+body {
+  font-family: 'verdana', sans-serif; 
+  font-size: 16px; 
+  color: black; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
+  background-color: lightgreen; /* Set the background color of the page */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+h1 {
+  font-family: 'verdana', sans-serif; 
+  color: pink; /* CHANGE THE COLOR OF THE WORDS ON THE NAVIGATION BAR */
+  text-align: center; 
+  margin-top: 50px; 
+  font-size: 2.5em; 
+}
+
+/* Paragraph Styling */
+p {
+  font-family: 'verdana', serif; 
+  color: white; /* CHANGE THE COLOR OF THE WORDS */
+  line-height: 1.6; 
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Link Styling */
+
+a:hover {
+  color: greenmv; 
+  text-decoration: underline; 
+}

@@ -1,0 +1,121 @@
+/* ===============================
+   Navigation Bar
+   =============================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkblue; /* Navigation bar background color */
+  padding: 1em 2em;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  color: white;             /* Link text color */
+  text-decoration: none;    /* Remove underline */
+  padding: 0.5em;
+  display: block;
+}
+
+
+/* ===============================
+   Text Boxes
+   =============================== */
+.boxes {
+  display: flex;             /* Changed from inline-flex for better layout */
+  flex-wrap: wrap;           /* Allows wrapping of multiple boxes */
+  gap: 1.5em;
+  padding: 2em;
+  justify-content: center;   /* Center boxes on the screen */
+}
+
+.box {
+  background-color: white;   /* Box background */
+  padding: 1.5em;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ===============================
+   General Page Styling
+   =============================== */
+body {
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ===============================
+   Headings & Paragraphs
+   =============================== */
+h1 {
+  font-family: 'Verdana', sans-serif;
+  color: purple;            /* Title text color */
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5em;
+}
+
+p {
+  font-family: 'Verdana', serif;
+  color: pink;              /* Paragraph text color */
+  line-height: 1.6;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+/* ===============================
+   Link Hover Effects
+   =============================== */
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+
+/* ===============================
+   Bottom Navigation Bar
+   =============================== */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 2em;
+  z-index: 100;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.bottom-nav a:hover {
+  background-color: yellow;
+}
