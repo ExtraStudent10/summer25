@@ -22,7 +22,7 @@
 }
 
 .box {
-  background: teal; /* CHANGE THE COLOR OF THE BACKGROUND OF THE WORD BOX */
+  background: #01F9C6; /* CHANGE THE COLOR OF THE BACKGROUND OF THE WORD BOX */
   padding: 1.5em;
   border-radius: 8px;
   text-align: center;
@@ -68,7 +68,7 @@ h1 {
 /* Paragraph Styling */
 p {
   font-family: 'verdana', serif; 
-  color: PINK; /* CHANGE THE COLOR OF THE WORDS */
+  color: hotpink; /* CHANGE THE COLOR OF THE WORDS */
   line-height: 1.6; 
   text-align: center;
   padding: 0 20px;
@@ -79,4 +79,29 @@ p {
 a:hover {
   color: ORANGE; 
   text-decoration: underline; 
+}
+
+/* ===============================
+   Bottom Navigation Bar
+   =============================== */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: limegreen;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 2em;
+  z-index: 100;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.bottom-nav a:hover {
+  background-color: yellow;
 }

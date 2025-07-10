@@ -27,7 +27,7 @@
 
 .nav-links a {
   color: white;             /* Link text color */
-  text-decoration: none;    /* Remove underline */
+  text-decoration: none;
   padding: 0.5em;
   display: block;
 }
@@ -37,11 +37,11 @@
    Text Boxes
    =============================== */
 .boxes {
-  display: flex;             /* Changed from inline-flex for better layout */
-  flex-wrap: wrap;           /* Allows wrapping of multiple boxes */
+  display: flex; 
+  flex-wrap: wrap;
   gap: 1.5em;
   padding: 2em;
-  justify-content: center;   /* Center boxes on the screen */
+  justify-content: center;
 }
 
 .box {
@@ -59,7 +59,7 @@
 body {
   font-family: 'Verdana', sans-serif;
   font-size: 16px;
-  color: black;
+  color: black;   /* Color of words on page */
   background-color: beige;
   margin: 0;
   padding: 0;
@@ -90,7 +90,7 @@ p {
    Link Hover Effects
    =============================== */
 a:hover {
-  color: orange;
+  color: orange;    /* color the link changes to when a mouse hovers over it */
   text-decoration: underline;
 }
 
@@ -102,7 +102,7 @@ a:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: black;    /* color of the bottom navigation bar */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .bottom-nav a {
-  color: white;
+  color: white;    /* word color of bottom navigation bar */
   text-decoration: none;
   transition: background-color 0.3s;
 }

@@ -41,7 +41,7 @@
 }
 
 .nav-links a {
-  color: ; /* CHANGE THE COLOR OF THE LINKS */
+  color: darkblue; /* CHANGE THE COLOR OF THE LINKS */
   text-decoration: none;
   padding: 0.5em;
   display: block;
@@ -80,4 +80,29 @@ p {
 a:hover {
   color: ORANGE; 
   text-decoration: underline; 
+}
+
+/* ===============================
+   Bottom Navigation Bar
+   =============================== */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 2em;
+  z-index: 100;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.bottom-nav a:hover {
+  background-color: yellow;
 }

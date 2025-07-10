@@ -126,8 +126,8 @@ body {
 .bottom-buttons button {
   padding: 10px 20px;
   font-size: 1em;
-  background-color: lightblue;
-  border: 2px solid blue;
+  background-color: transparent;
+  border: 2px solid black;
   border-radius: 5px;
   color: black;
   cursor: pointer;
