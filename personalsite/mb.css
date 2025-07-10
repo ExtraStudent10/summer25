@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #004080;
+  background-color: #daf1de;
   padding: 1em 2em;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .box {
-  background: white;
+  background: #c0c0c0;
   padding: 1.5em;
   border-radius: 8px;
   text-align: center;
@@ -49,8 +49,8 @@
 body {
   font-family: 'Arial', sans-serif; /* Set the font family */
   font-size: 16px; /* Set the font size for text */
-  color: #333333; /* Set the font color to a dark gray */
-  background-color: #FFFADC; /* Set the background color of the page */
+  color: #043423; /* Set the font color to a dark gray */
+  background-color: #748c84; /* Set the background color of the page */
   margin: 0;
   padding: 0;
 }
@@ -58,7 +58,7 @@ body {
 /* Header Styling */
 h1 {
   font-family: 'Helvetica', sans-serif; /* A different font for the header */
-  color: #004080; /* Dark blue color for header text */
+  color: #043423; /* Dark blue color for header text */
   text-align: center; /* Center align the header */
   margin-top: 50px; /* Add space above the header */
   font-size: 2.5em; /* Larger font size for the header */
@@ -67,7 +67,7 @@ h1 {
 /* Paragraph Styling */
 p {
   font-family: 'Georgia', serif; /* Serif font for paragraphs */
-  color: #555555; /* Medium gray color for paragraph text */
+  color: #043423; /* Medium gray color for paragraph text */
   line-height: 1.6; /* Adjust line height for better readability */
   text-align: justify; /* Justify the text alignment */
   padding: 0 20px; /* Add some padding to the sides */
@@ -76,7 +76,7 @@ p {
 /* Link Styling */
 
 a:hover {
-  color: #005fa3; /* Darker blue when the user hovers over the link */
+  color: #c0c0c0; /* Darker blue when the user hovers over the link */
   text-decoration: bold; /* Underline on hover */
 }
 
@@ -87,7 +87,7 @@ a:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: #043423;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -102,5 +102,5 @@ a:hover {
 }
 
 .bottom-nav a:hover {
-  background-color: yellow;
+  background-color: #c0c0c0;
 }
