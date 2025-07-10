@@ -3,12 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: darkblue; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
+  background-color:majenta; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
   padding: 1em 2em;
 }
 
 .logo {
-  color: white;
+  color: lite pink;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -22,7 +22,7 @@
 }
 
 .box {
-  background: white; /* CHANGE THE COLOR OF THE BACKGROUND OF THE WORD BOX */
+  background: peach; /* CHANGE THE COLOR OF THE BACKGROUND OF THE WORD BOX */
   padding: 1.5em;
   border-radius: 8px;
   text-align: center;
@@ -40,7 +40,7 @@
 }
 
 .nav-links a {
-  color: white; /* CHANGE THE COLOR OF THE LINKS */
+  color: lite blue; /* CHANGE THE COLOR OF THE LINKS */
   text-decoration: none;
   padding: 0.5em;
   display: block;
@@ -51,7 +51,7 @@ body {
   font-family: 'verdana', sans-serif; 
   font-size: 16px; 
   color: black; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
-  background-color: beige; /* Set the background color of the page */
+  background-color: lite puple; /* Set the background color of the page */
   margin: 0;
   padding: 0;
 }
@@ -59,7 +59,7 @@ body {
 /* Header Styling */
 h1 {
   font-family: 'verdana', sans-serif; 
-  color: PURPLE; /* CHANGE THE COLOR OF THE WORDS ON THE NAVIGATION BAR */
+  color: dark pink; /* CHANGE THE COLOR OF THE WORDS ON THE NAVIGATION BAR */
   text-align: center; 
   margin-top: 50px; 
   font-size: 2.5em; 
@@ -77,7 +77,7 @@ p {
 /* Link Styling */
 
 a:hover {
-  color: ORANGE; 
+  color: weight; 
   text-decoration: underline; 
 }
 
@@ -88,7 +88,7 @@ a:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: neyon pink;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -103,5 +103,5 @@ a:hover {
 }
 
 .bottom-nav a:hover {
-  background-color: yellow;
+  background-color: white;
 }
