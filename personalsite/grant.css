@@ -10,7 +10,7 @@
 }
 
 .logo {
-  color: darklavendar; /* words on the left of navigation bar */
+  color: purple; /* words on the left of navigation bar */
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -26,7 +26,7 @@
 }
 
 .nav-links a {
-  color: lightred;     /* Link text color in top navigation bar*/
+  color: rosybrown;     /* Link text color in top navigation bar*/
   text-decoration: none;
   padding: 0.5em;
   display: block;
@@ -45,7 +45,7 @@
 }
 
 .box {
-  background-color: darktan;   /* Box background color */
+  background-color: tan;   /* Box background color */
   padding: 1.5em;
   border-radius: 8px;
   text-align: center;
@@ -71,7 +71,7 @@ body {
    =============================== */
 h1 {
   font-family: 'Verdana', sans-serif;
-  color: darkbrown;            /* Title text color */
+  color: brown;            /* Title text color */
   text-align: center;
   margin-top: 50px;
   font-size: 2.5em;

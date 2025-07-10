@@ -10,7 +10,7 @@
 }
 
 .logo {
-  color: teal; /* words on the left of navigation bar */
+  color: #01F9C6; /* words on the left of navigation bar */
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -26,7 +26,7 @@
 }
 
 .nav-links a {
-  color: neongreen;     /* Link text color in top navigation bar*/
+  color: limegreen;     /* Link text color in top navigation bar*/
   text-decoration: none;
   padding: 0.5em;
   display: block;
@@ -45,7 +45,7 @@
 }
 
 .box {
-  background-color: babyblue;   /* Box background color */
+  background-color: lightblue;   /* Box background color */
   padding: 1.5em;
   border-radius: 8px;
   text-align: center;
@@ -71,7 +71,7 @@ body {
    =============================== */
 h1 {
   font-family: 'Verdana', sans-serif;
-  color: darkteal;            /* Title text color */
+  color: teal;            /* Title text color */
   text-align: center;
   margin-top: 50px;
   font-size: 2.5em;
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .bottom-nav a {
-  color: neonyellow;    /* word color of bottom navigation bar */
+  color: yellow;    /* word color of bottom navigation bar */
   text-decoration: none;
   transition: background-color 0.3s;
 }
