@@ -5,12 +5,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: darkblue; /* Navigation bar background color */
+  background-color:orange; /* Navigation bar background color */
   padding: 1em 2em;
 }
 
 .logo {
-  color: orange; /* words on the left of navigation bar */
+  color:darkblue; /* words on the left of navigation bar */
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -26,7 +26,7 @@
 }
 
 .nav-links a {
-  color: limegreen;     /* Link text color in top navigation bar*/
+  color:darkgreen;     /* Link text color in top navigation bar*/
   text-decoration: none;
   padding: 0.5em;
   display: block;
@@ -45,7 +45,7 @@
 }
 
 .box {
-  background-color: white;   /* Box background color */
+  background-color: red;   /* Box background color */
   padding: 1.5em;
   border-radius: 8px;
   text-align: center;
@@ -60,7 +60,7 @@ body {
   font-family: 'Verdana', sans-serif;
   font-size: 16px;
   color: black;   /* Color of words on page */
-  background-color: lightblue; /* background color of page */
+  background-color: neonyellow; /* background color of page */
   margin: 0;
   padding: 0;
 }
@@ -71,7 +71,7 @@ body {
    =============================== */
 h1 {
   font-family: 'Verdana', sans-serif;
-  color: purple;            /* Title text color */
+  color: brown;            /* Title text color */
   text-align: center;
   margin-top: 50px;
   font-size: 2.5em;
@@ -79,15 +79,15 @@ h1 {
 
 p {
   font-family: 'Verdana', serif;
-  color: pink;              /* Paragraph text color inside boxes */
+  color: black\
+;              /* Paragraph text color inside boxes */
   line-height: 1.6;
   text-align: center;
   padding: 0 20px;
 }
 
-
 /* ===============================
-   Link Hover Effects
+Link Hover Effects
    =============================== */
 a:hover {
   color: white;    /* color the link changes to when a mouse hovers over it */
@@ -102,7 +102,7 @@ a:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: black;    /* color of the bottom navigation bar */
+  background-color: white;    /* color of the bottom navigation bar */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -111,11 +111,11 @@ a:hover {
 }
 
 .bottom-nav a {
-  color: red;    /* word color of bottom navigation bar */
+  color: purple;    /* word color of bottom navigation bar */
   text-decoration: none;
   transition: background-color 0.3s;
 }
 
 .bottom-nav a:hover {
-  background-color: yellow;
+  background-color: white;
 }
