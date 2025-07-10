@@ -10,7 +10,7 @@
 }
 
 .logo {
-  color: white;
+  color: orange; /* words on the left of navigation bar */
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -26,7 +26,7 @@
 }
 
 .nav-links a {
-  color: white;             /* Link text color */
+  color: limegreen;     /* Link text color in top navigation bar*/
   text-decoration: none;
   padding: 0.5em;
   display: block;
@@ -45,7 +45,7 @@
 }
 
 .box {
-  background-color: white;   /* Box background */
+  background-color: white;   /* Box background color */
   padding: 1.5em;
   border-radius: 8px;
   text-align: center;
@@ -60,7 +60,7 @@ body {
   font-family: 'Verdana', sans-serif;
   font-size: 16px;
   color: black;   /* Color of words on page */
-  background-color: beige;
+  background-color: lightblue; /* background color of page */
   margin: 0;
   padding: 0;
 }
@@ -79,7 +79,7 @@ h1 {
 
 p {
   font-family: 'Verdana', serif;
-  color: pink;              /* Paragraph text color */
+  color: pink;              /* Paragraph text color inside boxes */
   line-height: 1.6;
   text-align: center;
   padding: 0 20px;
@@ -90,7 +90,7 @@ p {
    Link Hover Effects
    =============================== */
 a:hover {
-  color: orange;    /* color the link changes to when a mouse hovers over it */
+  color: white;    /* color the link changes to when a mouse hovers over it */
   text-decoration: underline;
 }
 
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .bottom-nav a {
-  color: white;    /* word color of bottom navigation bar */
+  color: red;    /* word color of bottom navigation bar */
   text-decoration: none;
   transition: background-color 0.3s;
 }

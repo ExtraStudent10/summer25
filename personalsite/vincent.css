@@ -1,32 +1,18 @@
-/* Navigation Bar */
+/* ===============================
+   Navigation Bar
+   =============================== */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: darkblue; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
+  background-color: darkblue; /* Navigation bar background color */
   padding: 1em 2em;
 }
 
 .logo {
-  color: white;
+  color: orange; /* words on the left of navigation bar */
   font-size: 1.5em;
   font-weight: bold;
-}
-
-/* Text Boxes */
-.boxes {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5em;
-  padding: 2em;
-}
-
-.box {
-  background: white; /* CHANGE THE COLOR OF THE BACKGROUND OF THE WORD BOX */
-  padding: 1.5em;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .nav-links {
@@ -40,46 +26,74 @@
 }
 
 .nav-links a {
-  color: white; /* CHANGE THE COLOR OF THE LINKS */
+  color: limegreen;     /* Link text color in top navigation bar*/
   text-decoration: none;
   padding: 0.5em;
   display: block;
 }
 
-/* General Page Styling */
+
+/* ===============================
+   Text Boxes
+   =============================== */
+.boxes {
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 1.5em;
+  padding: 2em;
+  justify-content: center;
+}
+
+.box {
+  background-color: white;   /* Box background color */
+  padding: 1.5em;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ===============================
+   General Page Styling
+   =============================== */
 body {
-  font-family: 'verdana', sans-serif; 
-  font-size: 16px; 
-  color: black; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
-  background-color: beige; /* Set the background color of the page */
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  color: black;   /* Color of words on page */
+  background-color: lightblue; /* background color of page */
   margin: 0;
   padding: 0;
 }
 
-/* Header Styling */
+
+/* ===============================
+   Headings & Paragraphs
+   =============================== */
 h1 {
-  font-family: 'verdana', sans-serif; 
-  color: PURPLE; /* CHANGE THE COLOR OF THE WORDS ON THE NAVIGATION BAR */
-  text-align: center; 
-  margin-top: 50px; 
-  font-size: 2.5em; 
+  font-family: 'Verdana', sans-serif;
+  color: purple;            /* Title text color */
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5em;
 }
 
-/* Paragraph Styling */
 p {
-  font-family: 'verdana', serif; 
-  color: PINK; /* CHANGE THE COLOR OF THE WORDS */
-  line-height: 1.6; 
+  font-family: 'Verdana', serif;
+  color: pink;              /* Paragraph text color inside boxes */
+  line-height: 1.6;
   text-align: center;
   padding: 0 20px;
 }
 
-/* Link Styling */
 
+/* ===============================
+   Link Hover Effects
+   =============================== */
 a:hover {
-  color: ORANGE; 
-  text-decoration: underline; 
+  color: white;    /* color the link changes to when a mouse hovers over it */
+  text-decoration: underline;
 }
+
 
 /* ===============================
    Bottom Navigation Bar
@@ -88,7 +102,7 @@ a:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: black;    /* color of the bottom navigation bar */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -97,7 +111,7 @@ a:hover {
 }
 
 .bottom-nav a {
-  color: white;
+  color: red;    /* word color of bottom navigation bar */
   text-decoration: none;
   transition: background-color 0.3s;
 }
