@@ -8,7 +8,7 @@
 }
 
 .logo {
-  color: white;
+  color: #043423;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -39,7 +39,7 @@
 }
 
 .nav-links a {
-  color: white;
+  color: #043423;
   text-decoration: none;
   padding: 0.5em;
   display: block;
@@ -47,7 +47,7 @@
 
 /* General Page Styling */
 body {
-  font-family: 'Arial', sans-serif; /* Set the font family */
+  font-family: 'Gill Sans', sans-serif; /* Set the font family */
   font-size: 16px; /* Set the font size for text */
   color: #043423; /* Set the font color to a dark gray */
   background-color: #748c84; /* Set the background color of the page */
@@ -57,7 +57,7 @@ body {
 
 /* Header Styling */
 h1 {
-  font-family: 'Helvetica', sans-serif; /* A different font for the header */
+  font-family: 'Gill Sans', sans-serif; /* A different font for the header */
   color: #043423; /* Dark blue color for header text */
   text-align: center; /* Center align the header */
   margin-top: 50px; /* Add space above the header */
@@ -66,10 +66,10 @@ h1 {
 
 /* Paragraph Styling */
 p {
-  font-family: 'Georgia', serif; /* Serif font for paragraphs */
+  font-family: 'Gill Sans', serif; /* Serif font for paragraphs */
   color: #043423; /* Medium gray color for paragraph text */
   line-height: 1.6; /* Adjust line height for better readability */
-  text-align: justify; /* Justify the text alignment */
+  text-align: center; /* Justify the text alignment */
   padding: 0 20px; /* Add some padding to the sides */
 }
 
