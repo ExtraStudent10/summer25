@@ -1,4 +1,4 @@
-v/* Navigation Bar */
+/* Navigation Bar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -77,7 +77,7 @@ p {
 /* Link Styling */
 
 a:hover {
-  color: greenmv; 
+  color: green; 
   text-decoration: underline; 
 }
 

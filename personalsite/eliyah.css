@@ -3,8 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: pink
-    ; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
+  background-color: pink; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
   padding: 1em 2em;
 }
 
@@ -41,7 +40,7 @@
 }
 
 .nav-links a {
-  color:wite; /* CHANGE THE COLOR OF THE LINKS */
+  color:white; /* CHANGE THE COLOR OF THE LINKS */
   text-decoration: none;
   padding: 0.5em;
   display: block;
@@ -51,7 +50,7 @@
 body {
   font-family: 'verdana', sans-serif; 
   font-size: 16px; 
-  color:wite; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
+  color:white; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
   background-color: beige; /* Set the background color of the page */
   margin: 0;
   padding: 0;

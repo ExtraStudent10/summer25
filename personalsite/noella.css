@@ -3,12 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:majenta; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
+  background-color: magenta; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
   padding: 1em 2em;
 }
 
 .logo {
-  color: lite pink;
+  color: lightpink;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -22,7 +22,7 @@
 }
 
 .box {
-  background: peach; /* CHANGE THE COLOR OF THE BACKGROUND OF THE WORD BOX */
+  background: lightcoral; /* CHANGE THE COLOR OF THE BACKGROUND OF THE WORD BOX */
   padding: 1.5em;
   border-radius: 8px;
   text-align: center;
@@ -51,7 +51,7 @@ body {
   font-family: 'verdana', sans-serif; 
   font-size: 16px; 
   color: black; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
-  background-color: lite puple; /* Set the background color of the page */
+  background-color: lavender; /* Set the background color of the page */
   margin: 0;
   padding: 0;
 }
@@ -88,7 +88,7 @@ a:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: neyon pink;
+  background-color: hotpink;
   display: flex;
   justify-content: space-around;
   align-items: center;

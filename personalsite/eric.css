@@ -5,12 +5,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: light green; /* Navigation bar background color */
+  background-color: lightgreen; /* Navigation bar background color */
   padding: 1em 2em;
 }
 
 .logo {
-  color: dark blue; /* words on the left of navigation bar */
+  color: darkblue; /* words on the left of navigation bar */
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -26,7 +26,7 @@
 }
 
 .nav-links a {
-  color: dark gray;     /* Link text color in top navigation bar*/
+  color: darkgray;     /* Link text color in top navigation bar*/
   text-decoration: none;
   padding: 0.5em;
   display: block;
@@ -79,7 +79,7 @@ h1 {
 
 p {
   font-family: 'Verdana', serif;
-  color: light blue;              /* Paragraph text color inside boxes */
+  color: lightblue;              /* Paragraph text color inside boxes */
   line-height: 1.6;
   text-align: center;
   padding: 0 20px;

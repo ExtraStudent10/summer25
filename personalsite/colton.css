@@ -71,7 +71,7 @@ body {
    =============================== */
 h1 {
   font-family: 'Verdana', sans-serif;
-  color: neonpink;            /* Title text color */
+  color: #ff00ff;            /* Title text color */
   text-align: center;
   margin-top: 50px;
   font-size: 2.5em;
@@ -79,7 +79,7 @@ h1 {
 
 p {
   font-family: 'Verdana', serif;
-  color:neonred;              /* Paragraph text color inside boxes */
+  color: #ff0000;              /* Paragraph text color inside boxes */
   line-height: 1.6;
   text-align: center;
   padding: 0 20px;
@@ -90,7 +90,7 @@ p {
    Link Hover Effects
    =============================== */
 a:hover {
-  color: neonblue;    /* color the link changes to when a mouse hovers over it */
+  color: #00f6ff;    /* color the link changes to when a mouse hovers over it */
   text-decoration: underline;
 }
 
@@ -102,7 +102,7 @@ a:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color:neonorange;    /* color of the bottom navigation bar */
+  background-color: #ffac00;    /* color of the bottom navigation bar */
   display: flex;
   justify-content: space-around;
   align-items: center;

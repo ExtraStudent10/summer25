@@ -26,7 +26,7 @@
 }
 
 .nav-links a {
-  colorwite;     /* Link text color in top navigation bar*/
+  color: white;     /* Link text color in top navigation bar*/
   text-decoration: none;
   padding: 0.5em;
   display: block;

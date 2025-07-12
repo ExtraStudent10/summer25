@@ -22,7 +22,7 @@
 }
 
 .box {
-  background: lime green; /* CHANGE THE COLOR OF THE BACKGROUND OF THE WORD BOX */
+  background: limegreen; /* CHANGE THE COLOR OF THE BACKGROUND OF THE WORD BOX */
   padding: 1.5em;
   border-radius: 8px;
   text-align: center;
@@ -51,7 +51,7 @@ body {
   font-family: 'verdana', sans-serif; 
   font-size: 16px; 
   color: black; /* CHANGE THE COLOR OF THE NAVIGATION BAR */
-  background-color: light blue; /* Set the background color of the page */
+  background-color: lightblue; /* Set the background color of the page */
   margin: 0;
   padding: 0;
 }

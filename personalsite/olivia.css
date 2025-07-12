@@ -60,7 +60,7 @@ body {
   font-family: 'Verdana', sans-serif;
   font-size: 16px;
   color: black;   /* Color of words on page */
-  background-color: lightpurple; /* background color of page */
+  background-color: lavender; /* background color of page */
   margin: 0;
   padding: 0;
 }
@@ -79,7 +79,7 @@ h1 {
 
 p {
   font-family: 'Verdana', serif;
-  color: darkpink;              /* Paragraph text color inside boxes */
+  color: rgb(227, 68, 95);              /* Paragraph text color inside boxes */
   line-height: 1.6;
   text-align: center;
   padding: 0 20px;

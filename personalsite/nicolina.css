@@ -40,7 +40,7 @@
 }
 
 .nav-links a {
-  color:l ; /* CHANGE THE COLOR OF THE LINKS */
+  color: pink;     /* Link text color in top navigation bar*/
   text-decoration: none;
   padding: 0.5em;
   display: block;
