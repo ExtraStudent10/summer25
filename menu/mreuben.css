@@ -20,8 +20,8 @@
   padding: 1em 2em;
 }
 
-.introwords {
-  color: black; /* THIS IS THE COLOR OF THE WORDS ON THE LEFT IN THE NAVIGATION BAR */
+.logo {
+  color: red; /* THIS IS THE COLOR OF THE WORDS ON THE LEFT IN THE NAVIGATION BAR */
   font-size: 1.5em;
   font-weight: bold;
 }

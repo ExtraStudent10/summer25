@@ -20,8 +20,8 @@
   padding: 1em 2em;
 }
 
-.introwords {
-  color: white; /* THIS IS THE COLOR OF THE WORDS ON THE LEFT IN THE NAVIGATION BAR */
+.logo {
+  color: WHITE; /* THIS IS THE COLOR OF THE WORDS ON THE LEFT IN THE NAVIGATION BAR */
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -49,7 +49,7 @@
 
 body {
       font-family: verdana, Helvetica, sans-serif;
-      color: lightgreen; /* THIS IS THE COLOR OF THE WORDS */
+      color: white; /* THIS IS THE COLOR OF THE WORDS */
       background-color: lavender; /* THIS IS THE COLOR OF THE BACKGROUND OF THE WEBPAGE */
       margin: 0;
       padding: 20px;
