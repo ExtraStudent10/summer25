@@ -10,7 +10,7 @@
 }
 
 .logo {
-  color: neongreen; /* words on the left of navigation bar */
+  color: #74ee15; /* words on the left of navigation bar */
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -26,7 +26,7 @@
 }
 
 .nav-links a {
-  color: neonpurple;     /* Link text color in top navigation bar*/
+  color: #f000ff;     /* Link text color in top navigation bar*/
   text-decoration: none;
   padding: 0.5em;
   display: block;
@@ -102,7 +102,7 @@ a:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: neonteal;    /* color of the bottom navigation bar */
+  background-color: rgb(110, 213, 213);    /* color of the bottom navigation bar */
   display: flex;
   justify-content: space-around;
   align-items: center;
