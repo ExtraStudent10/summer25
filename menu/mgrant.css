@@ -116,7 +116,7 @@ h2 {
 }
 
 .menu-item:hover {
-  transform: scale(1.03);          /* ✅ Grows a little when hovered */
+  transform: scale(1.03);         
 }
 
 .menu-item img {

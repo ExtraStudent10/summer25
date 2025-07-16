@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: light mint; /* ✅ Color of the bar at the top */
+  background-color: rgb(118, 228, 184); /* ✅ Color of the bar at the top */
   padding: 1em 2em;
 }
 
@@ -79,7 +79,7 @@
 body {
   font-family: Verdana, Helvetica, sans-serif;
   color: dark pink;                 /* ✅ Color of all the words */
-  background-color: lite purple;   /* ✅ Background color of the whole page */
+  background-color: lavender;   /* ✅ Background color of the whole page */
   margin: 0;
   padding: 20px;
 }
@@ -105,12 +105,12 @@ h2 {
 }
 
 .menu-item {
-  border: 3px lazer lemon;          /* ✅ Border color around each item */
+  border: 3px yellow;          /* ✅ Border color around each item */
   border-radius: 8px;
   padding: 10px;
   width: 200px;
   text-align: center;
-  background-color: peach;      /* ✅ Background color of each box */
+  background-color: lightcoral;      /* ✅ Background color of each box */
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s;
 }
